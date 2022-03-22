@@ -1,0 +1,361 @@
+/*WRITTEN BY STEVIE EELES*/
+/*CSS IS ORDERED BY APPEARANCE IN HTML DOCUMENT*/
+
+/* MAIN DESKTOP CSS CONFIG */
+
+
+/*CONTROLS THE MAIN DOCUMENT, NO EDITING NEEDED
+UNLESS BACKGROUND COLOUR OR IMAGE NEED CHANGING*/
+.site_font {
+	font-family: 'Nexa', sans-serif;
+}
+
+
+html {
+	background-color: #010081;
+	/* ORIGINAL background-color: rgba(0, 181, 204,1);*/
+	background-image: url(../images/bg2.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	width: 100%;
+	height: auto;
+	scroll-behavior: smooth;
+	/*font-family: "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol";*/
+	-webkit-font-smoothing: antialiased;
+	
+}
+
+table, p, td, div {
+	vertical-align: center;
+	text-align: center;
+}
+
+audio {
+	z-index: 3;
+}
+/* NAVIGATION AREA BEGINS */
+
+#nav-wrapper {
+width:99%;
+margin-left: auto;
+margin-right: auto;
+background:#c3c3c3;
+vertical-align: middle;
+position: fixed;
+bottom: 0px;
+padding-bottom:0.5%;
+border-bottom:2px solid #000000;
+z-index: 1;
+}
+
+ul#nav {
+font-family: Verdana;
+font-size:14px;
+list-style:none;
+margin-left: auto;
+margin-right: auto;
+width:auto;
+overflow: auto;
+vertical-align: center;
+z-index: 1;
+}
+
+ul#nav li {
+display:inline;
+}
+
+ul#nav li a {
+text-decoration:none;
+display: block;
+padding:5px 21px;
+background:#818181;
+color:#eee;
+float:left;
+text-align:center;
+border-top:2px solid #FFFFFF;
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-left:2px solid #FFFFFF;
+margin-right: 4px;
+}
+
+ul#nav li a:hover {
+background:#818181;
+color:#000;
+border-top:2px solid #000000;
+border-right:2px solid #FFFFFF;
+border-bottom:2px solid #FFFFFF;
+border-left:2px solid #000000;
+}
+
+.sep {
+background:#818181;
+color:#000;
+border-top:2px solid #000000;
+border-right:2px solid #FFFFFF;
+border-bottom:2px solid #FFFFFF;
+border-left:2px solid #000000;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: white;
+}
+
+/*NAVIGATION AREA ENDS*/
+
+/*CONTROLS THE MAIN BODY - the main square in the middle.
+AGAIN, PROBABLY NO EDIITING NEEDED*/
+.bodyindex {
+	border: 1px outset #ffffff;
+	border-radius: 2px;
+	box-shadow: 4px 4px 8px #181818; 
+	padding-top: 0;
+	padding-bottom: 100px;
+	padding-right: 5px;
+	padding-left: 4px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #008080;
+	color: #ffffff;
+	display: block;
+	width: 97%;
+	height: 100%;
+	min-width: 20%;
+	vertical-align: middle;
+	
+}
+
+.tableleft {
+	
+	margin-left: auto;
+	margin-right:auto;
+	vertical-align: middle;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+.tableright {
+	
+	margin-left: auto;
+	margin-right:auto;
+	vertical-align: middle;
+	text-align: center;
+	width: 50%;
+	float: right;
+}
+
+.logo {
+	max-width: 60%;
+	min-width: 10%;
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 5px;
+	padding-right: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 176px;
+	/*box-shadow: 4px 6px 6px rgba(97,117,117,1);*/
+	opacity: 1.0;
+	display: block;
+	vertical-align: center;
+}
+
+.tdbg {
+	max-width: 100%; 
+	min-width: 10%;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 1.875em;
+	font-stretch: condensed;
+	font-family: 'Nexa', sans-serif;
+	vertical-align: center;
+	text-align: center;
+}
+
+.tdbg2 {
+	max-width: 100%; 
+	min-width: 10%;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: 'Nexa', sans-serif;
+	vertical-align: center;
+	text-align: center;
+}
+
+.tdbg_about {
+	width: 70%; 
+	height: 50%;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: medium;
+	font-stretch: 50%;
+	font-family: 'Nexa', sans-serif;
+}
+.tdbg_slide {
+	max-width: 100%; 
+	min-width: 10%;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 16px;
+	font-stretch: condensed;
+	font-family: 'Nexa', sans-serif;
+	vertical-align: center;
+	text-align: center;
+}
+.hrsep {
+	border: 4px ridge #ffffff;
+	border-radius: 2px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	max-width: 60%;
+	min-width: 10%;
+}
+
+
+/*THE MAIN light blue table with BODY TEXT IN */
+/* UNIVERSAL TABLE SETTINGS*/
+.tablemain {
+	border: 2px outset #ffffff;
+	border-radius: 2px;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(137, 196, 244,1);
+	margin-left: 0%;
+	box-shadow: 4px 4px 8px #181818; 
+}
+.images
+{
+	max-width: 100%;
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 2px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: none;
+	vertical-align: middle;
+	
+/*box-shadow: 5px 7px 7px rgba(191,191,191,1);*/
+}
+
+/*TO MAKE THE BOOK IMAGES RESIZE IN SMALLER WINDOWS */
+.bookimages
+{
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 2px;
+	max-width: 100%;
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto; 
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	background-color: none;
+/*box-shadow: 5px 7px 7px rgba(191,191,191,1);*/
+}
+
+/* CONTROLS THE BORDERS AND FORMATTING OF THE SOCIAL
+MEDIA IMAGE LINKS */
+.socials
+{
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 5px;
+	padding-right: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: none;
+	width: 40px;
+	height: 40px;
+
+/*box-shadow: 5px 7px 7px rgba(191,191,191,1);*/
+}
+
+/* FOOTER AT THE BOTTOM OF THE PAGE. NO EDITING NEEDED */
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.righttable1 {
+	border: 1px outset #ffffff;
+	border-radius: 15px;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(144,153,212,1);
+	box-shadow: 4px 4px 8px #181818; 
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	top: 2%;
+	right:2%;
+	position: fixed;
+	width: 14%;
+	max-width: 100%;
+	display: block;
+}
+
+
+.tableindex_right {
+	max-width:100%;
+	border: 2px outset #ffffff;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(55, 151, 154,0.8);
+	margin-left: 0%;
+	margin-right:0%;
+	box-shadow: 4px 4px 8px #181818; 
+	float: right;
+}
+.noshadow {
+	color: white;
+	text-decoration: none;
+	letter-spacing: none;
+	font-weight: normal;
+	font-size: 1.875;
+	font-stretch: condensed;
+	box-shadow: 0px, 0px, 0px, #000000;
+	text-shadow: none;
+}
