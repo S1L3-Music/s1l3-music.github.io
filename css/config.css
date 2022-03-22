@@ -148,6 +148,8 @@ AGAIN, PROBABLY NO EDIITING NEEDED*/
 	text-align: center;
 	width: 50%;
 	float: left;
+	border-right: 1px outset #ffffff;
+	
 }
 
 .tableright {
