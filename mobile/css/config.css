@@ -1,0 +1,203 @@
+/*WRITTEN BY STEVIE EELES*/
+
+/* MAIN MOBILE CSS CONFIG */
+
+/*CONTROLS THE MAIN DOCUMENT, NO EDITING NEEDED
+UNLESS BACKGROUND COLOUR OR IMAGE NEED CHANGING*/
+html {
+	background-color: #3C412C;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+	scroll-behavior: smooth;
+}
+
+.site_font {
+	font-family: 'Nexa', sans-serif;
+}
+
+/*CONTROLS THE MAIN BODY - THE LIGHT BLUE AREA.
+AGAIN, PROBABLY NO EDIITING NEEDED*/
+body {
+	border: 1px outset #ffffff;
+	border-radius: 2px;
+/*	box-shadow: 4px 4px 8px #181818; */
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	margin-top: 2%;
+	margin-right: 0%;
+	margin-left: 1%;
+	background-color: #A8C64E;
+	font-weight: normal;
+	color: #ffffff;
+	font-family: 'Nexa', sans-serif;
+	width: 98%;
+}
+
+/* SLIGHTLY DIFFERENT EDIT OF THE BODY (ABOVE) 
+FOR THE BOOKS TABLE LAYOUR PAGE */
+.bodybooks {
+	border: 0px outset #ffffff;
+	border-radius: 10px;
+/*	box-shadow: 4px 4px 8px #181818; */
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 5px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	margin-top: 3%;
+	margin-right: 0%;
+	margin-left: 3%;
+	background-color: rgba(149, 232, 215, 0.9);
+	font-weight: bold;
+	color: #ffffff;
+	width: 93%;
+}
+
+/*THE FIRST THING YOU SEE, THE LOGO. THIS JUST
+SETS THE SIZE, ROUNDED CORNERS, SHADOWS AND SO ON*/
+.Logo {
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 2px;
+	padding-right: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width: 97%;
+	max-height: 97%;
+	box-shadow: 1px 2px 2px rgba(191,191,191,1);
+	display: flex;
+}
+
+/* TABLE THAT CONTAINS THE NAVIGATION BAR */
+.tablenav {
+	border: 2px outset #ffffff;
+	border-radius: 2px;
+	color: rgba(255, 255, 255, 1);
+	background-color: #3C412C;
+	opacity: 0.9;
+	height: 40%;
+	font-family: 'Nexa', sans-serif;
+	width: 97%;
+}
+/*COLOUR AND FORMATTING CONTROLS FOR VARIOUS 
+PARTS OF THE NAVIGATION BAR. NO EDITING NEEDED HERE*/
+.topnav {
+  overflow: hidden;
+  background-color: #3C412C;
+  position: relative;
+  border-radius: 2px;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #A8C64E;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  top: 0;
+  border-radius: 2px;
+  color: black;
+}
+
+.topnav a:hover {
+  background-color: #A8C64E;
+  color: black;
+}
+
+.active a:hover {
+  background-color: rgba(137, 196, 244,1);
+  color: white;
+}
+
+.topnavnohover a:hover {
+  background-color: #3C412C;
+  color: white;
+}
+
+/* FOR LINKS IN THE PAGE, NOT PART OF THE NAVIGATION BAR */
+a:link, a:visited, a:active  {
+ 	color: white;
+	text-shadow: none;
+}
+a:hover {
+	color:white;
+	/*text-shadow: 2px 2px 3px rgba(1, 1, 1, 1);*/
+}
+
+/* CONTROLS THE BORDERS AND FORMATTING OF THE SOCIAL
+MEDIA IMAGE LINKS */
+.socials
+{
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 2px;
+	padding-right: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	width: 100px;
+	height: 100px;
+	/*box-shadow: 5px 7px 7px rgba(191,191,191,1);*/
+}
+
+/*THE MAIN PURPLE TABLE WITH THE MAIN BODY TEXT IN */
+.tablemain {
+	border: 2px outset #ffffff;
+	border-radius: 2px;
+	color: rgba(255, 255, 255, 1);
+	background-color: #3C412C;
+	opacity: 0.9;
+	width: 97%;
+	font-weight: normal;
+	font-family: 'Nexa', sans-serif;
+	font-size: 25px;
+
+}
+
+/* NOT USED AT ALL, KEPT INCASE */
+/*.seperator {
+	border: 4px ridge #ffffff;
+	border-radius: 2px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+*/
+
+/* FOOTER AT THE BOTTOM OF THE PAGE. NO EDITING NEEDED */
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* CANT REMEMBER WHAT THIS IS FOR, BUT ITS IN USE */
+.small {
+	color: white;
+	text-decoration: none;
+}
+
+.pbackground {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+border: 3px outset #ffffff;
+	border-radius: 2px;
+	/*box-shadow: 4px 4px 8px #181818;*/
+	font-family: 'console', sans-serif;
+}
