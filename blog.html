@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<HEAD>
+	<meta charset="UTF-8">
+		<TITLE>
+			S1L3
+		</TITLE>
+		<link rel="stylesheet" href="css/config.css" type="text/css">
+		<link rel="stylesheet" href="css/slides.css" type="text/css">
+		<!--<link rel="stylesheet" href="css/navbar.css" type="text/css">-->
+		<link rel="shortcut icon" href="swirl.ico" />
+		<link rel="apple-touch-icon-precomposed" href="swirl.png" />
+		<link href="http://fonts.cdnfonts.com/css/nexa" rel="stylesheet">
+		
+		
+		
+		<script>
+		<!--
+		if (screen.width <= 699) {
+	document.location = "../mobile/index.html";
+		}
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+		location.replace("mobile/index.html");
+		}
+		//-->
+		</script>	
+	</HEAD>
+	<body>
+		<div id="nav-wrapper">
+			<ul id="nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="album.html">Albums</a></li>
+				<li><a href="stores.html">Stores</a></li>
+				<li><a href="tools.html">Resources</a></li>
+				<li><a href="blog.html">Blog</a></li>
+			</ul>
+		</div>
+
+		<DIV ID="BODY" CLASS="bodyindex_blog">
+	
+			<table width="70%" align="center">
+				<tr>
+					<td>
+						<h3>
+							BLOG!
+						</h3>
+						<hr class="hrsep" />
+					</td>
+					</tr>
+					<tr>
+					<td>
+						
+						<div class="pbackground">
+						<h4>Annoying Reason</h4><br>
+						<i>25/04/2022</i><br>&nbsp;<br>
+						
+						<P>
+						You may have read previously around the site that I historically 
+lost project files for music and generally wasn’t all that careful
+with keeping them and so on. Minus loosing a bunch when a hard drive died.
+The main reason though was laziness.
+You see, the first DAW I used, Reason 5, was unable to export stems. 
+</P>
+<P>
+What is a stem? A stem is one of the individual isolated tracks of a song,
+for example the drums. Or the vocals. Songs are made of many many layers
+and the stems are all of these individual layers. Reason 5 could only 
+export the final result. In order to get the stems you would need to select
+one track, export it, select the next track, export it - it was tedious, 
+essentially. Doing it one by one rather than pushing a button and pressing “go”. 
+</P>
+<P>
+However I still kept most of the Reason Project files - so if I need to get anything I could. 
+</P>
+<P>
+Fast forward to 2022 and I decide I should probably export all of the stems for 
+the Reason tracks - just in case. If the original project file corrupts or gets
+lost at the very least the audio waveforms exist. It was at this point that I started to hate Reason. 
+</P>
+<P>
+Reason 12, which is what the current version is, has taken a fairly asinine turn 
+from what it used to be - for example I used to always, by default 
+“detach sequencer window” - the sequencer is the part that has all of the midi tracks, 
+note lanes and stuff. Can’t do that now, for reasons I cannot work out. You can detach
+the “rack” which contains all of the instruments and you can detach the “mixer” which 
+frees up the sequencer window a little bit, but now you’ve got several windows open - 
+it’s cluttered and pointlessly convoluted.
+</P>
+<P>
+Then there is exporting stems. Which it does! Hooray. Except if your project
+files are older or what it calls “legacy” files, which all of mine are. 
+Then it won’t export stems.  The way Reason used to work was that it had a 14 
+channel mixer which all of your instruments were linked to. If you needed more 
+you could add another 14 channel mixer, etc. looked like this:<br>
+<img src="blog/1.png" width="70%">
+</P>
+<P>
+Reason 12 registers that 14 channel mixer as 1 device. And so when you export stems, 
+it exports 1 single file. To fix that issue, you need to create several separate 
+individual mixers in Reason 12:<br>
+<img src="blog/2.png" width="70%">
+</P>
+<P>
+
+And manually re-route every single element of your project file to them (I have not found any automatic way of doing this):<br>
+<img src="blog/3.png" width="70%">
+</P>
+<P>
+And THEN you need to re-adjust all of your levels and re-mix it all so it sounded how it did previously, fix any automation. 
+Which is made trickier by the fact that on the mixer window, there are no transport controls (play, pause, etc). 
+So you have to flick backwards and forwards between windows to do that (usually space bar works as start and 
+stop but for me, on the mixer window, did nothing). But once you’ve done all of that, then you can export all of the stems:<br>
+<img src="blog/4.png" width="70%">
+</P>
+<P> 
+I’ll be honest after about doing 3 songs I gave up again. It wanted me to locate a bunch of ReFills 
+(extra sounds and such) and I don’t know where I stored them and I lost patience. 
+</P>
+<P>
+Reason 5 had its limitations. You couldn’t record audio into it, so no importing of audio tracks, 
+recording of vocals or instruments etc. A workaround I used was to chop audio files up and trigger 
+them with midi on something like Kong. I believe there was some separate program that integrated 
+with Reason and filled that gap, but I never used it. It also didn’t support VSTs until version 9 or so? 
+Reason 5 couldn’t bounce mixer tracks. 
+</P>
+<P>
+But for all the features they’ve added and things it can do … about the best thing they’ve done is make 
+Reason a VST. At this point I would rather use just the instruments in a different sequencer that 
+visually makes more sense, has a better, less cluttered work flow etc. The downside is you can’t 
+just get the VST on its own. The Rack it’s called. It’s part of the full Reason program. Which is a shame, 
+in my opinion. I know I would almost certainly prefer a VST of Reason instruments over the full sequencer 
+program, especially in its current state. 
+</P>
+
+						
+						</div>
+					</td>
+	
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div>
+							<small>
+								<small>
+									<a href="https://www.facebook.com/S1L3Music" target="_blank"><img src="icons/FB.png" width="30" height="30" class="socials" alt="FB"></a>&nbsp;
+									<BR>
+									| Designed & Coded by <A href="SILE.html" target="_blank">SILEeeles</A> | Design based on Windows 95 / 98 |					
+								</small>
+							</small>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</DIV>	
+		
+			</table>
+
+
+				
+
+	</BODY>
+	
+</HTML>
